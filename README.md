@@ -1,12 +1,7 @@
 # Surfs_Up
 
 ## Overview of Statistical Analysis:
-The purpose of the Surf's up analysis is to go through a sql dataset on the weather of Hawaii for two specific months in question: June and December. The data is further analyzed to find . Finally, a visual representation was created to showcase the Total Fare by City Type over a select range of dates (January to April). This was completed by using Panda to code on Jupyter Notebook and Matplotlib to generate the line graph. 
-
-
-## Results
-
-The largest total fares are in Urban areas due to the concentration of people and drivers. Urban areas naturally have more people living within close proximity compared to Suburban and Rural areas, where Rural areas have a lower population with further proximity of people living near each other. The graph fairly represents the 3 types by showcasing the largest total fares to Urban cities and the lease total fares to Rural cities. The graph also showcases that the least amount of rides happen in early January which is probably due to the inclimental weather. There is a significant increase in the last week of February in all 3 areas which could be realated to an event or holiday that could have created the surge. 
+The purpose of the Surf's up analysis is to go through a sql dataset on the weather of Hawaii for two specific months in question: June and December. The data is further analyzed to find the variablity of each month and if the business could operate with the average temperature of each month. This was completed by using Python to code on Jupyter Notebook analyzing an SQL Dataset. 
 
 ### Statistics of June Weather
 ![June Stats](Images/June_Temps.PNG)
@@ -14,5 +9,9 @@ The largest total fares are in Urban areas due to the concentration of people an
 ### Statistics of December Weather
 ![December Stats](Images/Dec_Temps.PNG)
 
+## Results
+
+The average temperature in June was 74.9 degrees fahrenheit (23.8 degrees celcius) with a standard deviation of 3.25. The average temperature in December was 71.0 degrees fahrenheit (21.7 degrees celcius) with a standard deviation of 3.75. With a minimal variance between the datasets and maintaining tropical weather within each month in question. it is fair to assume that the weather in these 2 months will not be a hurdle for this business plan.
+
 ## Summary
-Overall, we can conclude that the most profitable city type is Urban due to the volume of rides and drivers. Even though Urban areas have the largest total fare, Rural areas have the hightest average per ride due to the distance of travel, but shows less than 5 times the total fare amounts compared to Urban. It is also fair to conclude that the average along the 4 months for each city type remains fairly constant except for the early January week were the decline could be a result of weather. 
+Since there is not much variance in temperature change during each month and considering the temperature is maintained in the mid-20's in degrees celcius, it would be more than ideal temperatures for a business to be operational. In fact. the cooler temperature would probably be more preferred than scorching heat. Overall, we can conclude that the temperature in both June and December are not low enough for an outdoor business to not be able to run. In fact, it seems promising that the weather would not be an obstacle for this business plan.
